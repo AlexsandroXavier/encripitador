@@ -26,7 +26,7 @@ function encripitar(stringEncripitada){
 }
 
 function desencripitar(stringDesencripitar){
-  let matrizCodigo = [["enter", "e"], ["imes", "i"], ["ober", "o"], ["ufat", "u"],["ai", "a"]]
+  let matrizCodigo = [["enter", "e"], ["ufat", "u"], ["imes", "i"], ["ober", "o"],["ai", "a"]]
   stringDesencripitar = stringDesencripitar.toLowerCase();
 
   for(let x=0; x < matrizCodigo.length; x++) {

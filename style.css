@@ -1,0 +1,102 @@
+*{
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header {
+    padding: 20px 80px;
+}
+
+body {
+    background-color: #f3f5fc ;
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.menssagem {
+    margin-top: 0px;
+    border: none;
+    border-radius: 10px;
+}
+
+.saida {
+    text-align: center;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 90px;
+    border-radius: 10px;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url("/imagem/persona.png");
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-cri {
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: #0a3871;
+    color: #d8dfe8;
+    background-color: #0a3871;
+    transition: 0.4s all;
+}
+
+.btn-des {
+    margin-left: 10px;
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-width: 1px;
+    color: #0a3871;
+    border-color: #0a3871;
+    background-color: #d8dfe8;
+    transition: 0.4s all;
+}
+
+.copiar {
+    position: relative;
+    background-color: #ffffff;
+    color: #0a3871;
+    border-color: #0a3871;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+
+button:hover {
+    transform: scale(1.04);
+}
+
+.informacao {
+    font-size: 15px;
+}
+
+footer {
+ color: #0a3871;
+ background: #d8dfe8;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.icones {
+    text-decoration: none;
+    font-size: large;
+}

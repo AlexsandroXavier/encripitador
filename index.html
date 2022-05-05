@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripitador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<body>
+    <header>
+        <h1><img src="imagem/Vector.svg" alt="Logo Alura"></h1>
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="menssagem" cols="40" rows="7" placeholder="Digite seu texto aqui"></textarea>
+            <div class="informacao">
+                <p class="aviso"><img src="imagem/exclamacao.png"> Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                
+                <button class="btn-cri" onclick="btnincripita()">Cripitografar</button>
+                <button class="btn-des" onclick="btndesencripita()">Descripitografar</button>
+            </div>
+        </section>  
+        
+        <section>
+            <div>
+                <textarea type="text" class="saida" cols="18" rows="8" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <button class="copiar" onclick="copiarTexto()" >Copiar</button>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">
+            &copy; Copyright Alexsandro Xavier - 2022
+        </p>
+        <br>
+        <div class="icones">
+            <a href="https://github.com/AlexsandroXavier"><i class="devicon-github-original"></i></a>
+            <a href="https://www.linkedin.com/in/engalexsandroxavier/"><i class="devicon-linkedin-plain"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

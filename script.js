@@ -4,7 +4,7 @@ const saida = document.querySelector(".saida");
 function btnincripita(){
   const textoEncripitado = encripitar(texto.value)
   saida.value = textoEncripitado
-  saida.style.backgroundImg="none"
+  saida.style.background = 'white'
 }
 
 function btndesencripita(){
@@ -14,7 +14,7 @@ function btndesencripita(){
 
 
 function encripitar(stringEncripitada){
-  let matrizCodigo = [["e", "enter"], ["i", "imes"], ["o", "ober"], ["u", "ufat"],["a", "ai"]]
+  let matrizCodigo = [["e", "enter"], ["i", "imes"], ["o", "ober"],["a", "ai"], ["u", "ufat"]]
   stringEncripitada = stringEncripitada.toLowerCase();
 
   for(let x=0; x < matrizCodigo.length; x++) {
@@ -26,7 +26,7 @@ function encripitar(stringEncripitada){
 }
 
 function desencripitar(stringDesencripitar){
-  let matrizCodigo = [["enter", "e"], ["ufat", "u"], ["imes", "i"], ["ober", "o"],["ai", "a"]]
+  let matrizCodigo = [["enter", "e"], ["imes", "i"], ["ober", "o"], ["ufat", "u"],["ai", "a"]]
   stringDesencripitar = stringDesencripitar.toLowerCase();
 
   for(let x=0; x < matrizCodigo.length; x++) {

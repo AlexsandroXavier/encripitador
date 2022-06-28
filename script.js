@@ -10,6 +10,7 @@ function btnincripita(){
 function btndesencripita(){
   const textoEncripitado = desencripitar(texto.value)
   saida.value = textoEncripitado
+  saida.style.background = 'white'
 }
 
 
@@ -44,7 +45,8 @@ function copiarTexto() {
   alert("O texto é: " + saida.value);
 }
 
-var btn = document.querySelector(".copiar");
+/*var btn = document.querySelector(".copiar");
 btn.addEventListener("click", function() { 
     location.reload();
 });
+*/
